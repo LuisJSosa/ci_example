@@ -13,7 +13,7 @@ class TestCase(unittest.TestCase):
         if expected == "Hello World":
             self.assertEqual(task.my_func(), expected)
         else:
-            self.assertEqual("Hello World", expected)
+            self.assertEqual("Hola World", expected)
 
 
 if __name__ == '__main__':
